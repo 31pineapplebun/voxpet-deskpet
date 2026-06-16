@@ -1,0 +1,39 @@
+# ===== 密钥 / 私密数据 (绝不提交) =====
+.env
+*.key
+
+# 真实聊天语料 / 向量库 / 音频缓存
+chats/
+friend_db/
+by_speaker/
+audio_cache/
+raw/
+*.csv
+!docs/chat_format_example.csv
+
+# 音色权重 / 音频文件
+*.ckpt
+*.pth
+*.wav
+*.mp3
+*.flac
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ===== 工具 / 二进制 =====
+*.exe
+ngrok.exe
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
